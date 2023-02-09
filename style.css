@@ -274,8 +274,36 @@ input{
 }
 
 @media (max-width: 640px) {
+
+    .navbar {
+        display: flex;
+        justify-content: unset;
+    }
+
+    h1 {
+        display: flex;
+        margin-top: 1%;
+        margin-bottom: 0;
+        font-size: 38px;
+        margin-left: 10px;
+    }
+
+/* Si sobra mucho espacio se puede jugar con el margin de h2 y de parrafo section 1 para que sea mas responsive */
+
+    h2{
+        position: relative;
+        margin-block: 0;
+        z-index: 100;
+    }
+
     .links{
-        display: none;
+        display: flex;
+        align-self: center;
+        margin-right: -24px;
+    }
+
+    .links-lista{
+        margin-block: 0px;
     }
 
     .container-general {
@@ -330,25 +358,23 @@ input{
 
     .uno {
         z-index: 100;
-        display: flex;
-        justify-content: start;
-        font-family: 'Passion One', cursive;
-        font-size: 200px;
-        color: rgba(206, 30, 30, 0.726);
         margin: -3px;
         line-height: 0;
         position: relative;
-        margin-top: 150px;
+        margin-top: 80px;
+    }
+
+    .parrafo-section-1{
+        margin-top: -28px;
+        position: relative;
+        z-index: 100;
     }
 
     .dos{
-        display: flex;
-        justify-content: end;
-        font-family: 'passion One', cursive;
-        font-size: 200px;
-        color: rgba(206, 30, 30, 0.726);
+        position: relative;
+        z-index: 100;
         line-height: 0;
-        margin-top: 80px;
+        margin-top: 68px;
     }
 
     .submit-button {
