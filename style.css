@@ -317,7 +317,12 @@ input{
     }
     
     .parrafo-section-1 {
-        margin-top: -10px;  
+        margin-top: -28px; 
+        position: relative;
+        z-index: 1;
+        color: white;
+        backdrop-filter: contrast(0.69);
+        text-shadow: none;
     }
 
     .container-foto {
@@ -344,10 +349,6 @@ input{
         display: none;
     }
 
-    .media-resaltar{
-        color: white;
-    }
-
     h2 {
         z-index: 100;
         font-family: 'Aboreto', cursive;
@@ -362,12 +363,6 @@ input{
         line-height: 0;
         position: relative;
         margin-top: 80px;
-    }
-
-    .parrafo-section-1{
-        margin-top: -28px;
-        position: relative;
-        z-index: 100;
     }
 
     .dos{
